@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Creative Website</title>
+<link rel="stylesheet" href="style.css">
+<style>
+    body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(45deg,#000428,#004e92);
+color:white;
+text-align:center;
+}
+
+header{
+padding:40px;
+font-size:25px;
+}
+
+.container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.card{
+background:rgba(255,255,255,0.1);
+padding:30px;
+width:250px;
+border-radius:15px;
+box-shadow:0 0 20px rgba(0,0,0,0.5);
+transition:0.5s;
+}
+
+.card:hover{
+transform:scale(1.1);
+background:rgba(255,255,255,0.2);
+}
+
+button{
+padding:10px 20px;
+border:none;
+background:#ff9800;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Welcome To My Creative Website</h1>
+<p>Made By Pinkal</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>Gaming</h2>
+<p>I love gaming and creative design.</p>
+<button onclick="show()">Click Me</button>
+</div>
+
+<div class="card">
+<h2>Web Design</h2>
+<p>HTML CSS JavaScript Project</p>
+</div>
+
+<div class="card">
+<h2>Creative Idea</h2>
+<p>Always create something new.</p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
